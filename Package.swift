@@ -8,7 +8,7 @@ let package = Package(
         .iOS(.v15),
         .macCatalyst(.v15),
         .watchOS(.v10)
-    ]
+    ],
     products: [
         .library(name: "Logging", targets: ["Logging"]),
         .library(name: "InMemoryLogging", targets: ["InMemoryLogging"]),
